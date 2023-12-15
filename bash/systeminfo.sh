@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /path/to/bash/reportfunctions.sh
+source /home/samarthpatel/COMP2101/bash/reportfunctions.sh
 
 help() {
     echo "Usage: systeminfo.sh [OPTION]"
