@@ -2,7 +2,7 @@
 
 cpureport() {
     echo "CPU Report"
-    # Replace these with commands to extract CPU info
+    # Commands to extract CPU info
     echo "Manufacturer: $(...)"
     echo "Model: $(...)"
     echo "Architecture: $(...)"
@@ -13,7 +13,7 @@ cpureport() {
 
 computerreport() {
     echo "Computer Report"
-    # Replace these with commands to extract computer info
+    # Commands to extract computer info
     echo "Manufacturer: $(...)"
     echo "Model: $(...)"
     echo "Serial Number: $(...)"
@@ -21,14 +21,14 @@ computerreport() {
 
 osreport() {
     echo "OS Report"
-    # Replace these with commands to extract OS info
+    # Commands to extract OS info
     echo "Distro: $(...)"
     echo "Version: $(...)"
 }
 
 ramreport() {
     echo "RAM Report"
-    # Replace these with commands to extract RAM info
+    # Commands to extract RAM info
     echo "Component Manufacturer: $(...)"
     echo "Model/Product Name: $(...)"
     echo "Size: $(...)"
@@ -39,14 +39,14 @@ ramreport() {
 
 videoreport() {
     echo "Video Report"
-    # Replace these with commands to extract video card info
+    # Commands to extract video card info
     echo "Manufacturer: $(...)"
     echo "Model: $(...)"
 }
 
 diskreport() {
     echo "Disk Report"
-    # Replace these with commands to extract disk drive info
+    # Commands to extract disk drive info
     echo "Drive Manufacturer: $(...)"
     echo "Model: $(...)"
     echo "Size: $(...)"
@@ -58,7 +58,7 @@ diskreport() {
 
 networkreport() {
     echo "Network Report"
-    # Replace these with commands to extract network info
+    # Commands to extract network info
     echo "Interface Manufacturer: $(...)"
     echo "Model/Description: $(...)"
     echo "Link State: $(...)"
