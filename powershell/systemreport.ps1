@@ -16,6 +16,16 @@ function Get-RAMSummary {
     "Total RAM Installed: $($totalRAM.Sum / 1GB) GB"
 }
 
+function systemreport {
+    Get-SystemHardware
+    Get-OperatingSystem
+    Get-ProcessorInfo
+    Get-RAMSummary
+    Get-DiskInfo
+    Get-NetworkInfo
+    Get-VideoCardInfo
+}
+
 function Get-DiskInfo {
     $diskdrives = Get-CIMInstance CIM_DiskDrive
     foreach ($disk in $diskdrives) {
